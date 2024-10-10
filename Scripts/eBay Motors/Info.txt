@@ -1,0 +1,20 @@
+Instructions
+open cmd on the project folder path.
+
+python -m venv venv
+venv\scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+For Admin Account, please create one with superuser!
+python manage.py createsuperuser
+
+Admin
+Username : admin@admin.com
+Email address: root@admin.com
+Password: admin@123
+
+User
+Amar@09
+123456
